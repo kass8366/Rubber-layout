@@ -89,27 +89,17 @@ h2 {
      width: 60%;
 }
 
+@media (max-width: 1400px) {
+     
+     html {
+          font-size: 14px;
+     }
+}
+
 @media (max-width: 1200px) {
      
-     h1 {
-          font-size: 3em;
-          font-weight: 700;
-     }
-     
-     h2 {
-          font-size: 1.5em;
-     }
-
-     .sale_card__header_right {
-          font-size: 1.5em;
-     }
-     
-     .sale_card__main_left p {
-          font-size: 1em;
-     }
-
-     .sale_card__main_left button {
-          font-size: 1.5em;
+     html {
+          font-size: 12px;
      }
      
      .sale_card__main_left {
@@ -122,8 +112,11 @@ h2 {
      }
 }
 
-
 @media (max-width: 1000px) {
+
+     html {
+          font-size: 10px;
+     }
      
      .sale_card__main_left {
           gap: 20px;
@@ -132,5 +125,13 @@ h2 {
      .sale_card__main_left button {
           width: 220px;
           height: 60px;
+     }
+}
+
+
+@media (max-width: 1000px) {
+
+     html {
+          font-size: 8px;
      }
 }
