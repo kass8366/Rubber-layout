@@ -38,6 +38,7 @@ h2 {
 .sale_card__header_left {
      display: flex;
      align-items: center;
+     cursor: pointer;
 }
 
 .sale_card__header_right {
@@ -81,6 +82,7 @@ h2 {
      font-size: 2em;
      font-weight: 500;
      color: #FFF;
+     cursor: pointer;
 }
 
 .sale_card__main img {
